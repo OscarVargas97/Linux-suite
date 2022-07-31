@@ -8,7 +8,6 @@ config.h
 
 # objects and compiled program
 *.o
-flybinds
 
 # Prerequisites
 *.d
@@ -47,7 +46,6 @@ flybinds
 *.i*86
 *.x86_64
 *.hex
-dwmblocks
 
 # Debug files
 *.dSYM/
