@@ -1,0 +1,5 @@
+Para copiar los paquetes instalados con pacman en un archivo txt se utiliza el siguiente comando:
+pacman -Qqen > pkglist.txt
+
+Para instalar los paquetes copiados se utiliza el siguiente comando:
+pacman -S - < pkglist.txt
